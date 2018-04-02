@@ -6,7 +6,7 @@ btnAddUser.addEventListener('click', function(){
     var data = {
         firstname: fname.value,
         lastname: lname.value,
-        
+
     };
 
     fetch(

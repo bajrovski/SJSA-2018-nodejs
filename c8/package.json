@@ -1,5 +1,5 @@
 {
-  "name": "c7",
+  "name": "c8",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,12 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Emil Bajrovski",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3"
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "hbs": "^4.0.1",
+    "node-fetch": "^2.1.1"
   }
 }
