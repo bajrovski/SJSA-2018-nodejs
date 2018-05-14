@@ -1,0 +1,5 @@
+#!/bin/bash
+nodemon srv/api-server.js & >> nohup.out
+nodemon srv/auth-server.js & >> nohup.out
+nodemon srv/upload-server.js & >> nohup.out
+nodemon srv/user-server.js & >> nohup.out
